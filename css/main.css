@@ -1,0 +1,168 @@
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.footer-container {
+    border-top: 20px solid #014f88;
+    background: #0078CF;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+.main {
+    padding: 30px 0;
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.footer-container footer {
+    color: white;
+    padding: 20px 0;
+}
+
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 {
+    padding-top: 20px;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+footer, h3 {
+    text-transform: uppercase;
+    font-size: .8em;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #3B3B3B;
+    background-color: #fafafa;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+a {
+    color: #0078CF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color:#014f88;
+}
+
+h1 {
+    color: #0078CF;
+    line-height: 1.5;
+    float: left;
+    text-shadow:0 -1px 1px rgba(0,0,0,0.2);
+}
+  
+h2 {
+    clear:both;
+}  
+
+img {
+    display: none;
+}
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+img {
+    display: block;
+    border-radius: 50%;
+    border: 1px solid #fafafa;
+    float: left;
+    margin-right:1em;
+    }
+}
+@media only screen and (min-width: 768px) {
+
+
+.wrapper {
+        width: 640px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
